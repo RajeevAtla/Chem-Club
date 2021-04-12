@@ -1,0 +1,187 @@
+\documentclass{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[version=4]{mhchem}
+\usepackage{chemfig}
+\usepackage[margin = 1in]{geometry}
+\usepackage{multicol}
+\setlength{\columnsep}{6cm}
+
+
+\begin{document}
+\noindent\makebox[\textwidth]{Name and Homeroom:\enspace\hrulefill}
+
+\noindent \textbf{Identify the following compounds, using standard IUPAC rules.}
+\begin{multicols}{2}
+\begin{questions}
+\question \ce{[Mo(CN)_8]^{-4}} \boxed{\text{Octacyanomolybdenate (IV) anion}}
+\question \ce{[PtCl_3(C_2H_4)]^-} \boxed{\text{Trichloroethylplatinate (II) anion}}
+\question \chemfig{
+             H_3C% 1
+    -[:60,,2]S% 2
+                (
+          =[:150]O% 4
+                )
+                (
+       -[:60,,,1]CH_3% 5
+                )
+      =[:330]O% 3
+} \boxed{\text{Dimethyl sulfone OR Methylsulfonylmethyl (MSM)}}
+\question \chemfig{
+               % 1
+        -[:270]% 2
+                  (
+            =[:330]O% 3
+                  )
+    -[:210,,,2]HO% 4
+} \boxed{\text{Formic acid OR Methanoic acid}}
+\question \chemfig{
+                CH_2% 1
+    =[:180,,1,2]H_2C% 2
+} \boxed{\text{Ethene}}
+\question \chemfig{
+           F% 2
+    -[:240]% 1
+              (
+        -[:150]F% 3
+              )
+              (
+        -[:240]F% 5
+              )
+    -[:330]F% 4
+} \boxed{\text{Tetrafluoromethane OR Carbon tetrafluoride}}
+\question \chemfig{
+           % 1
+     -[:30]% 2
+    -[:330]O% 3
+     -[:30]% 4
+    -[:330]% 5
+} \boxed{\text{Diethyl ether OR Ethoxyethane}}
+\question \chemfig{
+               CH_3% 1
+     -[:210,,1]% 2
+        -[:150]% 3
+        -[:210]% 4
+        -[:150]% 5
+        -[:210]% 6
+        -[:150]% 7
+        -[:210]% 8
+                  (
+            =[:150]O% 9
+                  )
+    -[:270,,,1]OH% 10
+} \boxed{\text{Octanoic acid}}
+\question \chemfig{
+               HO% 8
+     -[:300,,2]% 6
+              -% 5
+                  (
+        <:[:60,,,1]OH% 9
+                  )
+        -[:300]% 4
+                  (
+            <[,,,1]OH% 10
+                  )
+        -[:240]% 3
+                  (
+       <:[:300,,,1]OH% 11
+                  )
+        -[:180]% 2
+                  (
+            -[:120]O% 7
+             -[:60]% -> 6
+                  )
+        <[:240]% 1
+    -[:180,,,2]HO% 12
+} \boxed{\text{Glucose}}
+\question \chemfig{
+              OH% 1
+    -[:270,,1]Br% 2
+                 (
+           =[:330]O% 3
+                 )
+       =[:210]O% 4
+} \boxed{\text{Bromic acid}}
+\question \chemfig{
+               O% 4
+        =[:270]% 3
+                  (
+        -[:330,,,1]OH% 5
+                  )
+        -[:210]% 2
+                  (
+        -[:270,,,1]OH% 6
+                  )
+        -[:150]% 1
+                  (
+         -[:90,,,1]OH% 10
+                  )
+        -[:210]% 7
+                  (
+            =[:270]O% 8
+                  )
+    -[:150,,,2]HO% 9
+} \boxed{\text{Tartaric acid OR Dihydroxybutanedioic acid}}
+\question \chemfig{H-C(-[2]H)(-[6]H)-C(-[7]H)=[1]O} \boxed{\text{Ethanal}}
+\question \chemfig{
+           % 1
+     -[:90]S% 2
+              (
+         -[:30]% 4
+              )
+    =[:150]O% 3
+} \boxed{\text{Dimethyl sulfoxide}}
+\question \chemfig{*6(=-=-=-)} \boxed{\text{Benzene}}
+\question \chemfig{
+              O% 3
+        =[:30]% 2
+                 (
+        -[:90,,,1]OH% 4
+                 )
+       -[:330]% 1
+    -[:30,,,1]NH_2% 5
+} \boxed{\text{Aminoacetic acid OR glycine}}
+\question \chemfig{-[:30]=[:-30]-[:30]} \boxed{\text{Trans-butene}}
+\question \chemfig{
+              H_2C% 1
+      -[,,2,1]CH_2% 2
+    -[:120,,1]O% 3
+                 (
+           -[:240]\phantom{C}% -> 1
+                 )
+} \boxed{\text{Ethylene oxide}}
+\question \chemfig{
+           % 1
+    -[:180]% 2
+    -[:240]% 3
+    -[:300]% 4
+          -% 5
+     -[:60]% 6
+              (
+        -[:120]% -> 1
+              )
+} \boxed{\text{Cyclohexane}}
+\question \chemfig{
+              H_3C% 1
+     -[:30,,2]S% 2
+       -[:330]S% 3
+    -[:30,,,1]CH_3% 4
+} \boxed{\text{Dimethyl disulfide}}
+\question \chemfig{
+              PH_2% 7
+    -[:180,,1]% 4
+      =_[:240]% 3
+       -[:180]% 2
+      =_[:120]% 1
+        -[:60]% 6
+            =_% 5
+                 (
+           -[:300]% -> 4
+                 )
+} \boxed{\text{Phenylphosphene}}
+
+
+\end{questions}
+
+\end{multicols}
+
+\end{document}
